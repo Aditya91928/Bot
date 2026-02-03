@@ -151,5 +151,5 @@ async def on_command_error(ctx, error):
         await ctx.send("⚠ An error occurred.")
 
 # ========== RUN BOT ==========
-z = input("Bot token here:")
-bot.run("MTQ2Nzc5NjE1NDg3NDg1OTU0MQ.Gra8i8.A5cVUwzMBf95VTBk_M5wFMj53r2V7RXy67khdQ")
+
+bot.run("MTQ2Nzc5NjE1NDg3NDg1OTU0MQ.GXKlSi.elal46uzTmx3L6pF9kjoDsoQt2ThYuBZcj_T90")
