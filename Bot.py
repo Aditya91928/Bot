@@ -1,3 +1,9 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
+
 import discord
 from discord.ext import commands
 from discord.utils import get
@@ -152,4 +158,4 @@ async def on_command_error(ctx, error):
 
 # ========== RUN BOT ==========
 
-bot.run("MTQ2Nzc5NjE1NDg3NDg1OTU0MQ.GXKlSi.elal46uzTmx3L6pF9kjoDsoQt2ThYuBZcj_T90")
+bot.run(TOKEN)
